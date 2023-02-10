@@ -659,8 +659,10 @@ The energy meter does have 2 meters, one for incoming and outgoing power. If you
 ### EasyMeter Q3A / Apator APOX+ (SML)
 
 A 2-Tariff Meter which for Example SWM (Stadtwerke München) oder DGY (Discovergy) uses. Unfortunately this Version sends only whole kWh (precision 0) without PIN. With PIN behaviour changes and high resolution is available as seen below (e.g. precision 7 for consumption/kWh, precision 2 for power/W, precision 1 for voltage/V).
+	
+After being unlocked with the PIN the extended resolution might have to be permanently activated in the menu. Follow the instructions [in the manual](https://www.easymeter.com/downloads/products/zaehler/Q3A1004/Kurzanleitung_Q3Ax1054_3054.pdf) for this.
     
-Apator APOX+ behaves same as the EasyMeter while pin locked, just precision 0 without additional data. After calling the energy provider they send a letter with the unlock pin. 
+Apator APOX+ behaves same as the EasyMeter while pin locked, just precision 0 without additional data. After calling the energy provider they send a letter with the unlock pin.
 
 ??? summary "View script"
     ```
